@@ -42,7 +42,6 @@ Open to roles where I can **operate, measure, and improve** detection & response
 ## Contact
 - **Website**: https://nathancavalcanti.github.io/
 - **GitHub**: https://github.com/NathanCavalcanti
-- **Email**: <your-email-here>
 - **LinkedIn**: https://www.linkedin.com/in/ncmlsa/
 
 ---
