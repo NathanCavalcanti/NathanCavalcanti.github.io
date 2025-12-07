@@ -89,6 +89,44 @@
                     <p>
                         I firmly believe in continuous learning and hands-on practice. I actively use platforms such as TryHackMe and TCM Security to strengthen my skills in SOC analysis, detection engineering, and penetration testing. My technical expertise covers tools like Wazuh, Suricata, Zeek, Kibana, Splunk, Metasploit, and Wireshark, among others.
                     </p>
+                        <!-- Badge flotante TryHackMe -->
+                        <style>
+                            #thm-badge-float {
+                                position: fixed;
+                                top: 100px;
+                                left: 0;
+                                z-index: 9999;
+                                width: 340px;
+                                height: 120px;
+                                background: none;
+                                box-shadow: none;
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                            }
+                            #thm-badge-float iframe {
+                                border: none;
+                                width: 340px;
+                                height: 120px;
+                                overflow: hidden;
+                            }
+                            @media (max-width: 600px) {
+                                #thm-badge-float {
+                                    width: 100vw;
+                                    left: 0;
+                                    top: unset;
+                                    bottom: 0;
+                                    height: 100px;
+                                }
+                                #thm-badge-float iframe {
+                                    width: 100vw;
+                                    height: 100px;
+                                }
+                            }
+                        </style>
+                        <div id="thm-badge-float">
+                            <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3287241" title="TryHackMe Badge"></iframe>
+                        </div>
                     <p>
                         In addition, I am developing a SOC Blue Team project (OpenSEC Network Defense), where I document the installation, configuration, and customization of SIEMs, IDS/IPS, and detection rules, while simulating real-world attacks to improve detection and response capabilities.
 Beyond technical knowledge, I bring leadership experience, problem-solving skills, and a strong commitment to professional growth. My long-term objective is to contribute to security operations as a SOC Analyst while progressing towards Red Team and offensive security certifications.
@@ -141,8 +179,7 @@ Beyond technical knowledge, I bring leadership experience, problem-solving skill
                     <div class="service-card">
                         <div class="body">
                             <img src="assets/imgs/SAL1logo.png" alt="Learn the skills needed to work as a Junior Security Analyst in a Security Operations Centre." class="icon">
-                            <h6 class="title"><a href=https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZIVKN2WZIY.pdf>Security Analyst Level 1 (SAL1)</a>
-                            <br><b style="color: red;">In progress</b></a></h6>
+                            <h6 class="title"><a href=https://www.credly.com/badges/dac7e938-3756-4338-a6f1-046860476632/public_url>Security Analyst Level 1 (SAL1)</a>
                             <p class="subtitle"></p>
                         </div>
                     </div>
