@@ -3,20 +3,21 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Nathan CM Landing page</title>
+    <meta name="description" content="Portfolio of Nathan Cavalcanti, Cybersecurity Professional and Networking Specialist specializing in SOC, Digital Forensics, and Incident Response.">
+    <meta name="author" content="Nathan Cavalcanti">
+    <title>Nathan Cavalcanti | Cybersecurity Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
 	<link rel="stylesheet" href="assets/css/meyawo.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Portfolio</a>         
+            <a class="logo" href="#home">Portfolio</a>         
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Home</a>
@@ -29,7 +30,7 @@
                     <a class="link" href="#portfolio">Projects</a>
                 </li>
             </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic" aria-label="Toggle navigation">
                 <div class="hamburger-box">
                 <div class="hamburger-inner"></div>
                 </div>
@@ -39,7 +40,7 @@
     
     <!-- page header -->
     
-    <header id="home" class="header">
+    <header class="header">
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
@@ -90,42 +91,8 @@
                     <p>
                         I firmly believe in continuous learning and hands-on practice. I actively use platforms such as TryHackMe and TCM Security to strengthen my skills in SOC analysis, detection engineering, and penetration testing. My technical expertise covers tools like Wazuh, Suricata, Zeek, Kibana, Splunk, Metasploit, and Wireshark, among others.
                     </p>
-                        <!-- Badge flotante TryHackMe -->
-                        <style>
-                            #thm-badge-float {
-                                position: fixed;
-                                top: 100px;
-                                left: 0;
-                                z-index: 9999;
-                                width: 340px;
-                                height: 120px;
-                                background: none;
-                                box-shadow: none;
-                                display: flex;
-                                align-items: flex-start;
-                                justify-content: flex-start;
-                            }
-                            #thm-badge-float iframe {
-                                border: none;
-                                width: 340px;
-                                height: 120px;
-                                overflow: hidden;
-                            }
-                            @media (max-width: 600px) {
-                                #thm-badge-float {
-                                    width: 100vw;
-                                    left: 0;
-                                    top: unset;
-                                    bottom: 0;
-                                    height: 100px;
-                                }
-                                #thm-badge-float iframe {
-                                    width: 100vw;
-                                    height: 100px;
-                                }
-                            }
-                        </style>
-                        <div id="thm-badge-float">
+                    <!-- TryHackMe Badge -->
+                    <div id="thm-badge-float">
                             <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3287241" title="TryHackMe Badge"></iframe>
                         </div>
                     <p>
@@ -133,7 +100,7 @@
 Beyond technical knowledge, I bring leadership experience, problem-solving skills, and a strong commitment to professional growth. My long-term objective is to contribute to security operations as a SOC Analyst while progressing towards Red Team and offensive security certifications.
                     </p>
                     
-                    <a href="https://drive.google.com/file/d/1XwrwdpMVtTi444utNO_BWJD22gxnlfr0/view?usp=drive_link" target="_blank">
+                    <a href="https://drive.google.com/file/d/1sjv0-iidqdKg72uWufwle8YcH0KcR0C-/view?usp=drive_link" target="_blank">
                         <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
                     </a>
                     
@@ -142,15 +109,6 @@ Beyond technical knowledge, I bring leadership experience, problem-solving skill
         </div><!-- end of container -->
     </section> <!-- end of about section -->
     <!-- service section -->
-<style>
-.portfolio-card-img {
-    width: 150px;      /* ancho uniforme */
-    height: 150px;     /* alto uniforme */
-    object-fit: contain; /* mantiene proporción sin deformar */
-    margin: 0 auto;    /* centra las imágenes */
-    display: block;
-}
-</style>
     <section class="section" id="service">
         <div class="container text-center">
             <p class="section-subtitle"></p>
@@ -170,8 +128,8 @@ Beyond technical knowledge, I bring leadership experience, problem-solving skill
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/CCDL1logo.svg" alt="The PSAA certification is an associate-level security operations and incident response exam experience." class="icon">
-                            <h6 class="title"><a href=>Level 1 Certified CyberDefender <br><b style="color: red;">In progress</b></a></h6> 
+                            <img src="assets/imgs/SC200.png" alt="Microsoft Certified: Security Operations Analyst Associate" class="icon">
+                            <h6 class="title"><a href="https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/" target="_blank">Security Operations Analyst Associate <br>SC-200<br><b style="color: red;">In progress</b></a></h6> 
                             <p class="subtitle"></p>
                         </div>
                     </div>
@@ -219,7 +177,7 @@ Beyond technical knowledge, I bring leadership experience, problem-solving skill
                     <img src="assets/imgs/cisco-certified-ccna.webp" class="portfolio-card-img" alt="Proyecto de Red Empresarial Multisede - CCNA LAB">
                     <span class="portfolio-card-overlay">
                         <span class="portfolio-card-caption">
-                            <h4>Proyecto de Red Empresarial Multisede - CCNA LAB</h4>
+                            <h4>Enterprise Multi‑Site Network Project – CCNA Lab</h4>
                             <p class="font-weight-normal">CISCO-CCNA-Lab</p>
                         </span>                         
                     </span>                         
